@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contain">
+        <header class="head">
+            <center><h3>Logo du site</h3></center>
+        </header>
+        <div class="icon">
+            <div class="icon2">
+                <div>
+                    <span style="position: relative;">
+                        <img src="logo/Insigne_EA_2015.png" alt="" srcset="" width="30" height="30" class="panUser"><span style="color: chocolate;position: absolute; right: 5px;font-size: 15px;"><b>0</b></span>
+                    </span>
+                    <img src="logo/contact_android.png" alt="" srcset="" width="30" height="30" class="imgUser">
+                </div>
+            </div>
+        </div>
+        <div class="categorie">
+                <div>
+                    <b>
+                        <span>
+                            Categorie :
+                        </span>
+                    </b>
+                    <button onclick="vetements()" id="btn1">Vetements</button>
+                    <button onclick="chaussures()" id="btn2">Chaussures</button>
+                    <button onclick="bijoux()" id="btn3">Bijoux</button>
+                    <button onclick="sacs()" id="btn4">Sacs</button>
+                    <button onclick="mobile()" id="btn5">Appareils Mobiles</button>
+                   
+                </div>
+        </div>
+        <div class="categorieImg" id="categorieImg">
+            <div class="sombre">
+              <div>
+                <center>
+                    <span class="msg" id="msg">Vetements</span><br>
+                    <span id="msg2" class="msg2">' Venez decouvrir nos differentes selecttion de Vetements '</span>
+                    
+                        <div class="cercleContain">
+                            <div class="cercleAlign">
+                                <div class="cercle" style="--clr:white;" id="slide1"></div>
+                                <div class="cercle" style="--clr:white;" id="slide2"></div>
+                                <div class="cercle" style="--clr:white;" id="slide3"></div>
+                                <div class="cercle" style="--clr:white;" id="slide4"></div>
+                                <div class="cercle" style="--clr:white;" id="slide5"></div>
+                            </div>
+                        </div>
+                </center>
+              </div>
+            </div>
+        </div>
+        <div class="presentationArticles">
+           <center>
+                        <h1 style="color: chocolate;">
+                                Les Articles 
+                        </h1>
+                        <h4>
+                            Jettez un coup d'oeil
+                        </h4>
+           </center>
+          
+        </div>
+        <div class="presentation">
+            <table class="table">
+                <tr>
+                    <td><img src="img/7e6e974d20b24c5182c28edd9d72bc61.webp"></td>
+                    <td>
+                        <span>
+                            Chapeaux bordeaux<br>
+                            Nouvel arrivage
+                        </span>
+                    </td>
+                    <td><img src="img/920249f6900ad2716182d5d349aeb4c9.webp"></td>
+                    <td>
+                        <span>
+                            Sandales compensées <br>colorées<br>
+                            Meilleure vente
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>
+                            Paniers de vélo<br>
+                            Le chouchou des clients
+                        </span>
+                    </td>
+                    <td><img src="img/32bcf6680059a1e18dfc9e569d430e3b.webp"></td>
+                    <td>
+                        <span>
+                            Boucles d'oreilles roses<br>
+                            Nouvel arrivage
+                        </span>
+                    </td>
+                    <td><img src="img/2ed4820b366f86c1d5a8f72e10edbe8d.webp"></td>
+                </tr>
+            </table><br>
+            <center>
+                <button onclick="voirplus()">Voir plus</button>
+            </center>
+        </div><br><br><br><br>
+        <div class="footer">
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <i>
+                            <h3>
+                                Contact
+                            </h3>
+                        </i>
+                    </td>
+                    <td>
+                        <i>
+                            <h3>
+                                Reseaux
+                            </h3>
+                        </i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="tablespan">
+                            696881931
+                           </span>
+                       
+                    </td>
+                    <td>
+                       <span class="tablespan">
+                        whatsap
+                       </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    
+                    </td>
+                    <td>
+                    <span class="tablespan">Facebook</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    
+                    </td>
+                    <td>
+                    <span class="tablespan">Messenger</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    
+                    </td>
+                    <td>
+                    <span class="tablespan">Tweeter</span>
+                    </td>
+                </tr>
+            </table><br>
+            <center>
+                <span> 
+                    copyright &copy; 2023 <span style="color: chocolate;">Andela Nkonda Jeanne Melvine</span>
+                </span>
+            </center><br>
+        </div>
+    </div>
+    <script>
+        setInterval(function(){
+           
+            setTimeout(function(){
+               
+                btn1 = document.getElementById('btn1').style.background = 'white';
+               btn1 = document.getElementById('btn1').style.color = 'chocolate';
+               btn2 = document.getElementById('btn2').style.background = 'chocolate';
+               btn2 = document.getElementById('btn2').style.color = 'white';
+               btn3 = document.getElementById('btn3').style.background = 'chocolate';
+               btn3 = document.getElementById('btn3').style.color = 'white';
+               btn4 = document.getElementById('btn4').style.background = 'chocolate';
+               btn4 = document.getElementById('btn4').style.color = 'white';
+               document.getElementById('slide1').style.background = 'chocolate';
+               document.getElementById('slide2').style.background = 'white';
+               document.getElementById('slide3').style.background = 'white';
+               document.getElementById('slide4').style.background = 'white';
+               document.getElementById('slide5').style.background = 'white';
+                    categorieImg = document.getElementById('categorieImg').style.background = "url('img/1.jpeg')no-repeat";
+                    categorieImg = document.getElementById('categorieImg').style.backgroundSize = "cover";
+                    msg = document.getElementById('msg').innerHTML ="Vetements";
+                    msg2 = document.getElementById('msg2').innerHTML = "' Venez decouvrir nos differentes selecttion de Vetements '";
+                
+             
+            },1000)
+            setTimeout(function(){
+            categorieImg = document.getElementById('categorieImg').style.width = "0%"; 
+            },10050)
+            setTimeout(function(){
+            categorieImg = document.getElementById('categorieImg').style.width = "100%"; 
+            },10100)
+            setTimeout(function(){
+              
+                btn1 = document.getElementById('btn1').style.background = 'chocolate';
+               btn1 = document.getElementById('btn1').style.color = 'white';
+               btn3 = document.getElementById('btn3').style.background = 'chocolate';
+               btn3 = document.getElementById('btn3').style.color = 'white';
+               btn2 = document.getElementById('btn2').style.background = 'white';
+               btn2 = document.getElementById('btn2').style.color = 'chocolate';
+               btn4 = document.getElementById('btn4').style.background = 'chocolate';
+               btn4 = document.getElementById('btn4').style.color = 'white';
+               document.getElementById('slide1').style.background = 'white';
+               document.getElementById('slide2').style.background = 'chocolate';
+               document.getElementById('slide3').style.background = 'white';
+               document.getElementById('slide4').style.background = 'white';
+               document.getElementById('slide5').style.background = 'white';
+                    categorieImg = document.getElementById('categorieImg').style.background = "url('img/2.jpg')no-repeat";
+                    categorieImg = document.getElementById('categorieImg').style.backgroundSize = "cover";
+                    msg = document.getElementById('msg').innerHTML ="Chaussures";
+                    msg2 = document.getElementById('msg2').innerHTML = "' Venez decouvrir nos differentes selecttions de Chaussures '";
+             
+              
+            },20000)
+            setTimeout(function(){
+            categorieImg = document.getElementById('categorieImg').style.width = "0%"; 
+            },20050)
+            setTimeout(function(){
+            categorieImg = document.getElementById('categorieImg').style.width = "100%"; 
+            },20100)
+            setTimeout(function(){
+               
+                btn1 = document.getElementById('btn1').style.background = 'chocolate';
+               btn1 = document.getElementById('btn1').style.color = 'white';
+               btn2 = document.getElementById('btn2').style.background = 'chocolate';
+               btn2 = document.getElementById('btn2').style.color = 'white';
+               btn3 = document.getElementById('btn3').style.background = 'white';
+               btn3 = document.getElementById('btn3').style.color = 'chocolate';
+               btn4 = document.getElementById('btn4').style.background = 'chocolate';
+               btn4 = document.getElementById('btn4').style.color = 'white';
+               document.getElementById('slide1').style.background = 'white';
+               document.getElementById('slide2').style.background = 'white';
+               document.getElementById('slide3').style.background = 'chocolate';
+               document.getElementById('slide4').style.background = 'white';
+               document.getElementById('slide5').style.background = 'white';
+                    categorieImg = document.getElementById('categorieImg').style.background = "url('img/3.jpg')no-repeat";
+                    categorieImg = document.getElementById('categorieImg').style.backgroundSize = "cover";
+                    msg = document.getElementById('msg').innerHTML ="Bijoux";
+                    msg2 = document.getElementById('msg2').innerHTML = "' Venez decouvrir nos differentes selecttions de Bijoux '";
+              
+            },30000)
+            setTimeout(function(){
+            categorieImg = document.getElementById('categorieImg').style.width = "0%"; 
+            },30050)
+            setTimeout(function(){
+            categorieImg = document.getElementById('categorieImg').style.width = "100%"; 
+            },30100)
+            setTimeout(function(){
+               
+               btn1 = document.getElementById('btn1').style.background = 'chocolate';
+               btn1 = document.getElementById('btn1').style.color = 'white';
+               btn2 = document.getElementById('btn2').style.background = 'chocolate';
+               btn2 = document.getElementById('btn2').style.color = 'white';
+               btn3 = document.getElementById('btn3').style.background = 'chocolate';
+               btn3 = document.getElementById('btn3').style.color = 'white';
+               btn4 = document.getElementById('btn4').style.background = 'white';
+               btn4 = document.getElementById('btn4').style.color = 'chocolate';
+               document.getElementById('slide1').style.background = 'white';
+               document.getElementById('slide2').style.background = 'white';
+               document.getElementById('slide3').style.background = 'white';
+               document.getElementById('slide4').style.background = 'chocolate';
+               document.getElementById('slide5').style.background = 'white';
+               categorieImg = document.getElementById('categorieImg').style.background = "url('img/4.jpg')no-repeat";
+               categorieImg = document.getElementById('categorieImg').style.backgroundSize = "cover";
+               msg = document.getElementById('msg').innerHTML ="Sacs";
+               msg2 = document.getElementById('msg2').innerHTML = "' Venez decouvrir nos differentes selecttions des Sacs '";
+         
+       },40000)
+       setTimeout(function(){
+       categorieImg = document.getElementById('categorieImg').style.width = "0%"; 
+       },40050)
+       setTimeout(function(){
+       categorieImg = document.getElementById('categorieImg').style.width = "100%"; 
+       },40100)
+          
+        },50000)
+
+        function voirplus(){
+            location.href="html/boutique.html";
+        }
+        function vetements(){
+            location.href="html/vetements.html";
+        }
+        function chaussures(){
+            location.href="html/chaussures.html";
+        }
+        function bijoux(){
+            location.href="html/bijoux.html";
+        }
+        function sacs(){
+            location.href="html/sacs.html";
+        }
+        function mobile(){
+            location.href="html/mobile.html";
+        }
+    </script>
+</body>
+</html>
